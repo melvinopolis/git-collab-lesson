@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'bears/index'
+
+  get 'bears/new'
+
+  get 'bears/show'
+
+  get 'bears/resources'
+
   root 'home#index'
   get '/about' => 'home#about'
 
